@@ -10,7 +10,7 @@ import airportTransfer from './airporttransfers.jpg';
 class Services extends React.Component{ 
     render(){ 
         return(
-            <div className="services"> 
+            <div className="services" id="services"> 
                 <h3 className="section-heading-top font-color-blue"> Our</h3>
                 <h2 className="section-heading"> Services</h2>
 

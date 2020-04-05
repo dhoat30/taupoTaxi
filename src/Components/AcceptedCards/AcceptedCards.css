@@ -1,0 +1,32 @@
+.accepted-cards{ 
+    background-color: rgb(201, 201, 201);
+    padding-bottom: 10px;
+}
+
+.accepted-cards div{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.accepted-cards img{ 
+    width: 130px;
+    height: 80px;
+    display: block;
+    margin: 20px 0px;
+    transition: ease-out;
+    transition-duration: 0.5s;
+    
+}
+
+.accepted-cards img:hover{ 
+    width: 130px;
+    height: 80px;
+    display: block;
+    margin: 10px 0px;
+    transform: scale(1.2);
+}

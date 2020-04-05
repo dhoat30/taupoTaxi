@@ -1,8 +1,85 @@
+@charset "UTF-8";
 
+*{ 
+    margin: 0; 
+    padding: 0; 
+
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .menu-fonts{ 
     font-family: 'Roboto', sans-serif;
-    font-size: 16pt;
-    letter-spacing:2px;
+    font-size: 14pt;
+    letter-spacing:1px;
+}
+
+h1{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 38pt;
+    letter-spacing: 1px;
+}
+
+.font-color-white{ 
+    color: rgb(196, 196, 196);
+}
+.font-color-white2{ 
+    color: white; 
+}
+
+.font-color-blue{ 
+    color: #01BF9A;
+}
+
+.hero-phone-number{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 28pt;
+    letter-spacing: 1px;
+}
+
+.slogan-text{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 35pt;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.section-heading{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 45pt;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-heading-top{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 40pt;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -25px;
+}
+.grid-heading{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 20pt;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+}
+p{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px){ 
+    h1{ 
+        font-size: 25pt;
+    }
+    .hero-phone-number{ 
+        font-size: 20pt;
+    }
+    .slogan-text{ 
+        font-size: 22pt;
+    }
 }
