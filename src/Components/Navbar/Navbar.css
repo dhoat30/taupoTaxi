@@ -4,7 +4,7 @@
 }
 .navbar{ 
     background-color:#00536C; 
-    display: none;
+    display: flex;
     justify-content: flex-end;
     width: 100%;
     padding: 20px 0;
@@ -41,6 +41,7 @@
     background-color: #00536C;
     width: 100%;
     height:60px;
+    display: none; 
 }
 .mobile-navbar div:nth-child(1){ 
     position:relative; 
@@ -55,9 +56,10 @@
     z-index:10; 
 }
 .phone-icon{ 
-    position:absolute; 
-    right:15px;
-    top:0px;
+    position: absolute; 
+    right: 15px; 
+    top: 10px;
+    z-index:20; 
 }
 
 .mobile-navbar img{ 
@@ -95,3 +97,4 @@
 #close-svg, #mobile-navbar-items{ 
     display: none; 
 }
+

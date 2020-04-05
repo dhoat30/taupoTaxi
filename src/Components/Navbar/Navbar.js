@@ -69,7 +69,8 @@ class Navbar extends React.Component{
 
 				<img src={logo} alt="taupo taxi"/> 
 
-				<a href="tel:073785100"> <svg  width="35" height="35" viewBox="0 0 20 20" >
+				<a  href="tel:073785100"> 
+					<svg  className="phone-icon" width="35" height="35" viewBox="0 0 20 20" >
 	
 						<defs>
 							<clipPath id="clip-path">
@@ -79,8 +80,9 @@ class Navbar extends React.Component{
 						<g id="Mask_Group_14" data-name="Mask Group 14" transform="translate(-491.212 -9769)" clip-path="url(#clip-path)">
 							<path id="phone-solid" d="M19.477.971,15.372.024a.954.954,0,0,0-1.086.549L12.391,4.994A.945.945,0,0,0,12.664,6.1l2.392,1.958a14.63,14.63,0,0,1-7,7L6.1,12.66A.946.946,0,0,0,5,12.387L.576,14.282a.959.959,0,0,0-.553,1.09l.947,4.105a.947.947,0,0,0,.924.734A18.315,18.315,0,0,0,20.211,1.895.946.946,0,0,0,19.477.971Z" transform="translate(491.001 9769.001)" fill="#fd6a59"/>
 						</g>
-				</svg>
+					</svg>
 				</a> 
+
 				<div id="mobile-navbar-items"> 	
 					<ul>	
 					<li><a href="home">Home</a></li>
