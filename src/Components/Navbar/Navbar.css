@@ -3,7 +3,7 @@
     padding: 0 ;
 }
 .navbar{ 
-    background-color:#00536C; 
+    
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -12,7 +12,7 @@
 }
 
 .navbar img{ 
-    width: 140px;
+    width: 170px;
     height: auto;
     position: absolute;
     left: 7%; 
@@ -22,17 +22,24 @@
 .navbar ul li{ 
     list-style: none;
     display: inline;
+    
+ 
       
 }
 .navbar a{ 
+    display:inline-block;
+    text-align: center;
     text-decoration: none; 
     color: white;
-    height: 100%;
+    width: 90px;
+ 
     padding: 10px 20px;
+
     
 }
 .navbar a:hover{ 
-   color: #01BF9A;
+   border-radius: 50px;
+   background-color: #01BF9A; ;
    
 }
 
@@ -97,4 +104,16 @@
 #close-svg, #mobile-navbar-items{ 
     display: none; 
 }
+
+/*media query-------*/ 
+@media only screen and (max-width:1150px){ 
+    .navbar{ 
+        display: none;
+    }
+    .mobile-navbar{ 
+        display: block;
+    }
+}
+
+
 
