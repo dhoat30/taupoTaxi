@@ -6,6 +6,8 @@ import Services from '../Services/Services';
 import OurFleet from '../OurFleet/OurFleet';
 import IHail from '../iHail/iHail'; 
 import AcceptedCards from '../AcceptedCards/AcceptedCards';
+import Faq from '../Faq/Faq'; 
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <OurFleet/>
       <IHail/>
       <AcceptedCards/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }

@@ -14,10 +14,11 @@
 
 .app-grid div{ 
     width: 40%;
-    min-width: 400px;
+    min-width: 300px;
 }
 .app-grid div:nth-child(1){ 
-    margin-left: 20px;
+    padding-left: 20px;
+   
 }
 .app-grid h3{ 
     text-align:  left;

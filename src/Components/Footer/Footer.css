@@ -1,0 +1,106 @@
+#contact{ 
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.underline{ 
+    border-bottom: 4px solid #01BF9A;
+}
+
+.contact-details{ 
+    padding-bottom: 50px 0;
+    width:300px;
+}
+
+.contact-details-grid{ 
+    margin-top: 10px;
+}
+.contact-details-grid div{ 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.contact-details-grid div svg{ 
+    margin:4px 0;
+    text-align: left;
+}
+.contact-details-grid div a{ 
+    margin:4px 10px;
+    text-align: left;
+}
+.contact-details-grid div a:hover{ 
+   color: #01BF9A;
+}
+.contact-details h5{ 
+    text-align: left;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.footer-logo{ 
+    display: flex; 
+   align-items: center;
+}
+
+.footer-logo img{ 
+    width: 300px;
+    height: auto;
+}
+
+.book-taxi{ 
+   padding-bottom: 50px;
+    width:300px;
+}
+
+.book-taxi div:nth-child(2){ 
+    margin-top: 10px;
+}
+.book-taxi h5{ 
+    text-align: left;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.book-taxi div{ 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+.book-taxi div svg{ 
+    margin:4px 0;
+    text-align: left;
+}
+.book-taxi div a{ 
+    margin:4px 10px;
+    text-align: left;
+}
+.book-taxi div a:hover{ 
+   color: #01BF9A;
+}
+#Layer_1, #Capa_1, .svg-logo{ 
+    width: 30px;
+    height: 30px;
+    fill: #01BF9A;
+}
+
+.copyright{ 
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+}
+.copyright a{ 
+    margin-left: 5px;
+}
+.copyright a:hover{ 
+color: #01BF9A;
+}

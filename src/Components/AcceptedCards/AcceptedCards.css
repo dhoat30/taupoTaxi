@@ -30,3 +30,16 @@
     margin: 10px 0px;
     transform: scale(1.2);
 }
+
+
+@media only screen and (max-width: 540px){ 
+    .accepted-cards img{ 
+        width: 100px;
+        height: 60px;
+        display: block;
+        margin: 20px 10px;
+        transition: ease-out;
+        transition-duration: 0.5s;
+        
+    } 
+}
