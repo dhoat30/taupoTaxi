@@ -1,0 +1,39 @@
+#about{ 
+    padding: 100px 0;
+}
+
+.about-grid{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    width: 100%;
+}
+.about-grid div:nth-child(1){ 
+    width: 60%;
+}
+.about-grid div:nth-child(2){ 
+    width: 400px;
+    margin-top: 50px;
+}
+.about-grid h3{ 
+    text-align: left;
+    margin-bottom: 20px;
+}
+.about-grid img{ 
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width:800px){ 
+    .about-grid div:nth-child(1){ 
+        width: 90%;
+    }
+    .about-grid div:nth-child(2){ 
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+}

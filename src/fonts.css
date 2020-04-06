@@ -52,7 +52,7 @@ h1{
 }
 .section-heading-top{ 
     font-family: 'Roboto',sans-serif;
-    font-size: 40pt;
+    font-size: 30pt;
     letter-spacing: 1px;
     font-weight: 700;
     text-align: center;
@@ -66,6 +66,15 @@ h1{
     text-align: center;
 }
 p{ 
+    font-family: 'Roboto',sans-serif;
+    font-size: 13pt;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.link-text{ 
+    text-decoration: none; 
+    color:white;
     font-family: 'Roboto',sans-serif;
     font-size: 13pt;
     letter-spacing: 1px;

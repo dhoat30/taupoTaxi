@@ -40,14 +40,14 @@ class Navbar extends React.Component{
 	
 	render (){ 
 		return (
-		<div> 
-			<div className="navbar menu-fonts" id="home"> 
+		<div id="home"> 
+			<div className="navbar menu-fonts" > 
 			<img src={logo} alt="taupo taxi"/> 
 				<ul>
 					<li><a href="#home">Home</a></li>
 					<li><a href="#services">Services</a></li>
 					<li><a href="#fleet">Fleet</a></li>
-					<li><a href="#about-us">About</a></li>
+					<li><a href="#about">About</a></li>
 					<li><a href="#app">App</a></li>
 					<li><a href="#faq">FAQ's</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -88,7 +88,7 @@ class Navbar extends React.Component{
 					<li><a href="#home">Home</a></li>
 					<li><a href="#services">Services</a></li>
 					<li><a href="#fleet">Fleet</a></li>
-					<li><a href="#about-us">About</a></li>
+					<li><a href="#about">About</a></li>
 					<li><a href="#app">App</a></li>
 					<li><a href="#faq">FAQ's</a></li>
 					<li><a href="#contact">Contact</a></li>

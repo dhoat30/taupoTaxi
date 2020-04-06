@@ -2,11 +2,11 @@
     margin-top: 50px;
     background-image: url('our-fleet-background.jpg');
     width: 100%;
- 
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     z-index: -1;
+    padding: 100px 0;
 }
 
 .our-fleet-overlay{ 
@@ -42,10 +42,13 @@
 .our-fleet-grid div h2{ 
     margin: 5px 0; 
 }
-#_01-steer, #Capa_1, #environment, #business-class, #Layer_1,#Capa_2{
+.our-fleet-grid div p{ 
+    text-align: center;
+}
+#_01-steer, #Capa_vehicles, #environment, #business-class, #Layer_maxi,#Capa_2{
     fill:#01BF9A; 
-    height: 100px; 
-    width: 100px;
+    height: 70px; 
+    width: 70px;
 }
 
 

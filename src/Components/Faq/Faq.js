@@ -6,7 +6,7 @@ class Faq extends React.Component{
     render(){ 
         return(
             <div id='faq'> 
-                <h3 className="section-heading-top font-color-blue"> Frequently Asked</h3>
+                <h3 className="section-heading-top font-color-white2"> Frequently Asked</h3>
                     <h2 className="section-heading"> Questions</h2>
                     
                     <div className="questions"> 
