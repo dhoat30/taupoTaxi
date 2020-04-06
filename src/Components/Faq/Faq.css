@@ -1,0 +1,22 @@
+#faq{ 
+    background-color:white;
+    padding-top: 50px;
+}
+.questions{ 
+    width: 600px;
+    margin: 0 auto;
+}
+
+.questions div{ 
+    margin: 40px 0;
+}
+.questions h4, p{ 
+    text-align: left;
+}
+
+@media only screen and (max-width:750px){ 
+    .questions{ 
+        width: 90%;
+        
+    }
+}
