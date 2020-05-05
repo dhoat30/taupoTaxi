@@ -12,9 +12,9 @@ import weChat from './wechat-pay.jpg';
 class AcceptedCards extends React.Component{ 
     render(){ 
         return(
-            <div classNameName="accepted-cards"> 
-                <h2 classNameName="section-heading">Payment Method </h2>
-                <h3 classNameName="grid-heading">All Credit Cards & DPA Vouchers are accepted plus these ones: </h3>
+            <div className="accepted-cards"> 
+                <h2 className="section-heading">Payment Method </h2>
+                <h3 className="grid-heading">All Credit Cards & DPA Vouchers are accepted plus these ones: </h3>
                 <div> 
                     <img src={paymark} alt="Paymark"/>
                     <img src={farmLand} alt="FarmLand"/>

@@ -7,15 +7,15 @@ class About extends React.Component{
     render(){ 
         return (
             <div id="about"> 
-                <h2 classNameName="section-heading-top font-color-blue">About</h2>
-                <h2 classNameName="section-heading">Us</h2>
-                <div classNameName="about-grid"> 
+                <h2 className="section-heading-top font-color-blue">About</h2>
+                <h2 className="section-heading">Us</h2>
+                <div className="about-grid"> 
                     <div> 
                         <img src={aboutUsSvg} alt="Taupo Taxis infortmation"/>
                     </div>
 
                     <div> 
-                        <h3 classNameName="grid-heading">Trusted Taxi Service In Taupo</h3>
+                        <h3 className="grid-heading">Trusted Taxi Service In Taupo</h3>
                         <p>Taupo Taxi Society has been established in Taupo since 1979 to serve Tourists and Local Commuters. Taupo Taxi Society is the most Trusted, Fast and Affordable Taxi company in Taupo.
 <br/><br/>
 

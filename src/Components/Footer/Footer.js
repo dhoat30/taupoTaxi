@@ -10,14 +10,14 @@ class Footer extends React.Component{
             <div> 
             <div id="contact"> 
 
-                <div classNameName="footer-logo"> 
+                <div className="footer-logo"> 
                         <img src={footerLogo} alt="Taupo Taxis"/>
                 </div>
 
-                <div classNameName="contact-details"> 
-                    <h5 classNameName="grid-heading underline font-color-white2">Contact</h5>
+                <div className="contact-details"> 
+                    <h5 className="grid-heading underline font-color-white2">Contact</h5>
 
-                    <div classNameName="contact-details-grid"> 
+                    <div className="contact-details-grid"> 
                         <div>
                         <svg  width="30" height="30" viewBox="0 0 20 20">
 	
@@ -31,7 +31,7 @@ class Footer extends React.Component{
                             </g>
                          </svg>
 
-                        <a classNameName="link-text" href="tel:07 378 5100">07 378 5100</a>
+                        <a className="link-text" href="tel:07 378 5100">07 378 5100</a>
                         </div>
                         
                         <div>
@@ -39,7 +39,7 @@ class Footer extends React.Component{
                              <path id="Icon_material-email" data-name="Icon material-email" d="M30,6H6A3,3,0,0,0,3.015,9L3,27a3.009,3.009,0,0,0,3,3H30a3.009,3.009,0,0,0,3-3V9A3.009,3.009,0,0,0,30,6Zm0,6L18,19.5,6,12V9l12,7.5L30,9Z" transform="translate(-3 -6)" fill="#01BF9A"/>
                         </svg>
 
-                        <a classNameName="link-text"  href="mailto: info@taupotaxi.co.nz">info@taupotaxi.co.nz</a>
+                        <a className="link-text"  href="mailto: info@taupotaxi.co.nz">info@taupotaxi.co.nz</a>
                         </div>
 
                         <div>
@@ -47,7 +47,7 @@ class Footer extends React.Component{
                             <path id="Icon_awesome-facebook-square" data-name="Icon awesome-facebook-square" d="M28.125,2.25H3.375A3.375,3.375,0,0,0,0,5.625v24.75A3.375,3.375,0,0,0,3.375,33.75h9.65V23.041H8.6V18h4.43V14.158c0-4.37,2.6-6.784,6.586-6.784a26.836,26.836,0,0,1,3.9.34V12h-2.2a2.521,2.521,0,0,0-2.842,2.723V18h4.836l-.773,5.041H18.475V33.75h9.65A3.375,3.375,0,0,0,31.5,30.375V5.625A3.375,3.375,0,0,0,28.125,2.25Z" transform="translate(0 -2.25)" fill="#01BF9A"/>
                         </svg>
 
-                        <a classNameName="link-text"  href="https://www.facebook.com/TAUPOTAXI.CO.NZ/">Facebook</a>
+                        <a className="link-text"  href="https://www.facebook.com/TAUPOTAXI.CO.NZ/">Facebook</a>
                         </div>
 
                         <div>
@@ -55,13 +55,13 @@ class Footer extends React.Component{
                         <path id="Icon_metro-location" data-name="Icon metro-location" d="M17.995,1.928a9.64,9.64,0,0,0-9.64,9.64c0,9.64,9.64,21.208,9.64,21.208s9.64-11.568,9.64-21.208a9.64,9.64,0,0,0-9.64-9.64Zm0,15.545a5.9,5.9,0,1,1,5.9-5.9A5.9,5.9,0,0,1,17.995,17.473Zm-3.736-5.9A3.736,3.736,0,1,1,17.995,15.3,3.736,3.736,0,0,1,14.259,11.568Z" transform="translate(-8.355 -1.928)" fill="#01BF9A"/>
                         </svg>
 
-                        <a classNameName="link-text"  href="https://g.page/Taupo-Taxis?share">11 Tuwharetoa Street, Taupo 3330</a>
+                        <a className="link-text"  href="https://g.page/Taupo-Taxis?share">11 Tuwharetoa Street, Taupo 3330</a>
                         </div>
                     </div>
                 </div>
 
-            <div classNameName="book-taxi"> 
-            <h5 classNameName="grid-heading underline font-color-white2">How To Book</h5>
+            <div className="book-taxi"> 
+            <h5 className="grid-heading underline font-color-white2">How To Book</h5>
                 <div> 
                     <svg  width="30" height="30" viewBox="0 0 20 20">
                         
@@ -75,7 +75,7 @@ class Footer extends React.Component{
                         </g>
                     </svg>
 
-                    <a classNameName="link-text" href="tel:07 378 5100">Phone</a>                   
+                    <a className="link-text" href="tel:07 378 5100">Phone</a>                   
                 </div>
 
                 <div> 
@@ -125,7 +125,7 @@ class Footer extends React.Component{
                         </g>
                         </svg>
 
-                    <a classNameName="link-text" href="http://ihail.nz/">App</a>                   
+                    <a className="link-text" href="http://ihail.nz/">App</a>                   
                 </div>
 
                 <div> 
@@ -174,13 +174,13 @@ class Footer extends React.Component{
                     </g>
                     </svg>
 
-                    <a classNameName="link-text" href="http://akltaxi.cooptaxi.co.nz/taupotaxis/">Online</a>                   
+                    <a className="link-text" href="http://akltaxi.cooptaxi.co.nz/taupotaxis/">Online</a>                   
                 </div>
 
                 <div> 
-                <svg height="30" viewBox="0 0 16 16" width="30" classNameName="svg-logo"><path d="m14.794 7.1662-1.12213-3.74042c-.255859-.853027-1.02588-1.42578-1.91602-1.42578h-.755859v-1c0-.552307-.447693-1-1-1h-4c-.552307 0-1 .447693-1 1v1h-.755859c-.890137 0-1.66016.572754-1.91602 1.42578l-1.12213 3.74042c-.708557.307922-1.20599 1.01306-1.20599 1.8338v4c0 .552246.447754 1 1 1h.000061l-.000061.999939c0 .552307.447693 1.00006 1 1.00006h1.00006c.552246 0 1-.447754 1-1l-.0004272-1h8.00037l-.000061.999939c0 .552307.447693 1.00006 1 1.00006h1.00006c.552307 0 1-.447754 1-1v-.999939l-.0003662-.000061h.0003662c.552246 0 1-.447754 1-1v-4c0-.82074-.497436-1.52588-1.20599-1.8338zm-10.5499-3.1662h7.51172l.900024 3h-9.31177l.900024-3zm-.244141 7.5c-.552307 0-1-.447754-1-1 0-.552307.447693-1 1-1s1 .447693 1 1c0 .552246-.447693 1-1 1zm8 0c-.552307 0-1-.447754-1-1 0-.552307.447693-1 1-1s1 .447693 1 1c0 .552246-.447693 1-1 1z"/></svg>
+                <svg height="30" viewBox="0 0 16 16" width="30" className="svg-logo"><path d="m14.794 7.1662-1.12213-3.74042c-.255859-.853027-1.02588-1.42578-1.91602-1.42578h-.755859v-1c0-.552307-.447693-1-1-1h-4c-.552307 0-1 .447693-1 1v1h-.755859c-.890137 0-1.66016.572754-1.91602 1.42578l-1.12213 3.74042c-.708557.307922-1.20599 1.01306-1.20599 1.8338v4c0 .552246.447754 1 1 1h.000061l-.000061.999939c0 .552307.447693 1.00006 1 1.00006h1.00006c.552246 0 1-.447754 1-1l-.0004272-1h8.00037l-.000061.999939c0 .552307.447693 1.00006 1 1.00006h1.00006c.552307 0 1-.447754 1-1v-.999939l-.0003662-.000061h.0003662c.552246 0 1-.447754 1-1v-4c0-.82074-.497436-1.52588-1.20599-1.8338zm-10.5499-3.1662h7.51172l.900024 3h-9.31177l.900024-3zm-.244141 7.5c-.552307 0-1-.447754-1-1 0-.552307.447693-1 1-1s1 .447693 1 1c0 .552246-.447693 1-1 1zm8 0c-.552307 0-1-.447754-1-1 0-.552307.447693-1 1-1s1 .447693 1 1c0 .552246-.447693 1-1 1z"/></svg>
 
-                    <a classNameName="link-text" href="http://akltaxi.cooptaxi.co.nz/taupotaxis/">Hail Us</a>                   
+                    <a className="link-text" href="http://akltaxi.cooptaxi.co.nz/taupotaxis/">Hail Us</a>                   
                 </div>
 
             </div>
@@ -188,9 +188,9 @@ class Footer extends React.Component{
 
 
             
-            <div classNameName="copyright"> 
-                <p classNameName="font-color-white2">©2018 by Taupo Taxis. </p>
-                <a href="https://webduel.co.nz" target="_blank" classNameName="link-text">Website built by Webduel.</a>
+            <div className="copyright"> 
+                <p className="font-color-white2">©2018 by Taupo Taxis. </p>
+                <a href="https://webduel.co.nz" target="_blank" className="link-text">Website built by Webduel.</a>
             </div>
             </div>
         ); 
