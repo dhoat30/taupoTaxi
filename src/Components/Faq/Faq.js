@@ -6,12 +6,12 @@ class Faq extends React.Component{
     render(){ 
         return(
             <div id='faq'> 
-                <h3 className="section-heading-top font-color-white2"> Frequently Asked</h3>
-                    <h2 className="section-heading"> Questions</h2>
+                <h3 classNameName="section-heading-top font-color-white2"> Frequently Asked</h3>
+                    <h2 classNameName="section-heading"> Questions</h2>
                     
-                    <div className="questions"> 
+                    <div classNameName="questions"> 
                         <div>
-                            <h4 className="grid-heading"> 
+                            <h4 classNameName="grid-heading"> 
                                  Q. What do we do with Lost Property left in Cabs?
                             </h4>
                             <p>
@@ -20,7 +20,7 @@ class Faq extends React.Component{
                         </div>
 
                         <div>
-                            <h4 className="grid-heading"> 
+                            <h4 classNameName="grid-heading"> 
                             Q. Can I order a taxi van to help me move flat?
                             </h4>
                             <p>
@@ -28,7 +28,7 @@ class Faq extends React.Component{
                         </div>
 
                         <div>
-                            <h4 className="grid-heading"> 
+                            <h4 classNameName="grid-heading"> 
                             Q. Why are taxi vans so hard to get on Friday/Saturday nights?
                             </h4>
                             <p>
@@ -36,7 +36,7 @@ class Faq extends React.Component{
                         </div>
 
                         <div>
-                            <h4 className="grid-heading"> 
+                            <h4 classNameName="grid-heading"> 
                             Q. Why is my pre-ordered taxi late?
                             </h4>
                             <p>
@@ -44,7 +44,7 @@ class Faq extends React.Component{
                         </div>
 
                         <div>
-                            <h4 className="grid-heading"> 
+                            <h4 classNameName="grid-heading"> 
                             Q. How do I notify Taupo Taxis of a Complaint?
                             </h4>
                             <p>

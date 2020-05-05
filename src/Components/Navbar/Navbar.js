@@ -41,7 +41,7 @@ class Navbar extends React.Component{
 	render (){ 
 		return (
 		<div id="home"> 
-			<div className="navbar menu-fonts" > 
+			<div classNameName="navbar menu-fonts" > 
 			<img src={logo} alt="taupo taxi"/> 
 				<ul>
 					<li><a href="#home">Home</a></li>
@@ -54,7 +54,7 @@ class Navbar extends React.Component{
 				</ul> 
 			</div> 
 
-			<div className="mobile-navbar menu-fonts" > 
+			<div classNameName="mobile-navbar menu-fonts" > 
 				<div id="hamburger-menu" onClick={this.mobileNavbarShow}>
 					<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 23.136 15.424">
  						 <path id="Icon_metro-menu" data-name="Icon metro-menu" d="M6.427,25.707H29.563V23.136H6.427v2.571Zm0-6.427H29.563V16.71H6.427V19.28Zm0-9v2.571H29.563V10.283H6.427Z" transform="translate(-6.427 -10.283)" fill="#fd6a59"/>
@@ -70,7 +70,7 @@ class Navbar extends React.Component{
 				<img src={logo} alt="taupo taxi"/> 
 
 				<a  href="tel:073785100"> 
-					<svg  className="phone-icon" width="35" height="35" viewBox="0 0 20 20" >
+					<svg  classNameName="phone-icon" width="35" height="35" viewBox="0 0 20 20" >
 	
 						<defs>
 							<clipPath id="clip-path">

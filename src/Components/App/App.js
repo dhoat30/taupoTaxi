@@ -11,10 +11,11 @@ import Footer from '../Footer/Footer';
 import About from '../About/About';
 
 function App() {
+
   return (
     <div>
    		<Navbar/> 
-      <HeroSection/> 
+       <HeroSection/> 
       <Services/>
       <OurFleet/>
       <IHail/>

@@ -45,7 +45,7 @@
 .our-fleet-grid div p{ 
     text-align: center;
 }
-#_01-steer, #Capa_vehicles, #environment, #business-class, #Layer_maxi,#Capa_2{
+#_01-steer, #Capa_vehicles, #environment, #business-className, #Layer_maxi,#Capa_2{
     fill:#01BF9A; 
     height: 70px; 
     width: 70px;
