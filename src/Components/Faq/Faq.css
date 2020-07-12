@@ -1,11 +1,13 @@
 #faq{ 
     background-color:#9FB758;
     padding: 100px 0;
+   
 
 }
 .questions{ 
-    width: 600px;
     margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
 }
 
 .questions div{ 

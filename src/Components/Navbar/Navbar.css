@@ -2,24 +2,29 @@
     margin: 0; 
     padding: 0 ;
 }
-.navbar{ 
-    
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding: 14px 0;
-    position: fixed;
+.navbar-container{
     background-color:rgba(0, 0, 0, 0.47);
+    position: fixed;
     z-index: 100;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.navbar{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
 
 }
 
 .navbar img{ 
     width: 170px;
     height: auto;
-    position: absolute;
-    left: 7%; 
-    top: 3px;
+   
 }
 
 .navbar ul li{ 
@@ -117,6 +122,7 @@
     }
     .mobile-navbar{ 
         display: block;
+        z-index: 200; ;
     }
 }
 

@@ -19,6 +19,7 @@ class IHail extends React.Component{
                             <img src={ihail} alt="iHail Logo" className="ihail-logo"/>  
                             <h3 className="grid-heading">Hail a cab anywhere, anytime</h3>
                             <p>ihail is a brand new smartphone app that will connect you to every Blue Bubble Taxi in most main centres. It offers standard fares so you will never be charged surge prices again.
+                              <br></br> <br></br><span class="ihail-discount grid-heading">15% Discount on iHail bookings</span>
                                 <br/><br/><br/>
                                 Available now for Android & iOS
                             </p>

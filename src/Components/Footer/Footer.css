@@ -1,11 +1,18 @@
 #contact{ 
     background-color: rgb(29, 29, 29);
-    display: flex;
+    
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+#contact>div{ 
+    max-width: 1400px;
+    width: 90%;
+   margin: 0 auto;
+   display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
-    padding-bottom: 50px;
-    padding-top: 50px;
 }
 .underline{ 
     border-bottom: 4px solid #01BF9A;
