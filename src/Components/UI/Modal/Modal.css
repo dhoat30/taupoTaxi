@@ -1,0 +1,89 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 0;
+  z-index: 1001;
+  /* display: none; */
+}
+.modalContainer .container-background {
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalContainer .title {
+  /* color: #02a2e0; */
+  color: #00587d;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.modalContainer .discount-text {
+  color: #00587d;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.modalContainer .ihail-logo {
+  width: 100%;
+  margin: 20px 0;
+}
+.modalContainer .ihail-logo img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* app store  */
+.modalContainer .app-store-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.modalContainer .app-store-logo-container a img {
+  width: 200px;
+  height: auto;
+}
+
+/* close button */
+
+.modalContainer .close-button {
+  position: absolute;
+  right: 10px;
+  z-index: 2000;
+  top: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+@media (max-width: 635px) {
+  .modalContainer .close-button {
+    position: absolute;
+    right: 50px;
+  }
+  .modalContainer .title {
+    /* color: #02a2e0; */
+    color: #00587d;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .modalContainer .discount-text {
+    color: #00587d;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+}
